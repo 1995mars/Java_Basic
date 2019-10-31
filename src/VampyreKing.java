@@ -1,7 +1,8 @@
+import java.util.Random;
+
 /**
  * Created by timbuchalka on 15/08/2016.
  */
-import java.util.Random;
 
 public class VampyreKing extends Vampyre {
 
@@ -14,6 +15,7 @@ public class VampyreKing extends Vampyre {
     public void takeDamage(int damage) {
         super.takeDamage(damage / 2);
     }
+
     public boolean runAway() {
 //        if (getLives() < 2) {
 //            return true;
